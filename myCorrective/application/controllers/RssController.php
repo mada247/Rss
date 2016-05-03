@@ -24,22 +24,7 @@ class RssController extends Zend_Controller_Action
     }
 
 
-    public function checkURL($url)
-    {
-
-    }
-
-
-    public function existBefore($rssid)
-    {
-
-        }
-
-    public function indexAction()
-    {
-        }
-
-
+ 
 
     public function addAction()
     {
@@ -86,11 +71,6 @@ class RssController extends Zend_Controller_Action
             }
         }
         $this->view->form = $form;
-    }
-
-    public function checkOwner($rss_id)
-    {
-        
     }
 
 
